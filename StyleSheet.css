@@ -57,12 +57,7 @@ a {
     font-size:30px;
     letter-spacing:0.01em;
     margin: 10px;
-     font-family: 'varela_roundregular';
-    src: url('varelaround-regular-webfont.woff2') format('woff2'),
-         url('varelaround-regular-webfont.woff') format('woff'),
-         url('varelaround-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+     
 }
 a:hover{
     color: rgb(255, 255, 255);
@@ -129,11 +124,4 @@ p:hover{
 .return{
     padding-top: 20%;
 }
-p{
- font-family: 'varela_roundregular';
-    src: url('varelaround-regular-webfont.woff2') format('woff2'),
-         url('varelaround-regular-webfont.woff') format('woff'),
-         url('varelaround-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
