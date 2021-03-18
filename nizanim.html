@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet.css">
+</head>
+<body>
+    <p class="basad">בס"ד</p>
+    <br>
+    <h1>מעלות, מעפילים</h1>
+
+    <div class="buttons">
+        <div class="container">
+            <button onclick="back()">חזרה לתפריט הראשי</button>
+            <br>
+            <a href="#bereshit">בראשית</a>
+            <a href="#shemot">שמות</a>
+            <a href="#vaikra">ויקרא</a>
+            <a href="#bamidbar">במדבר</a>
+            <a href="#devarim">דברים</a>
+            
+        </div>
+    </div>
+    <div class="textBox">
+        <!-- Write your comments here <a id="#bereshit"></a>
+        <p class="text" id="1" onclick="copyElementText(this.id)"> </p> 
+        <p class="text" id="2" onclick="copyElementText(this.id)"> </p>
+        <p class="text" id="3" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="4" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="5" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="6" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="7" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="8" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="9" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="10" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="11" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="12" onclick="copyElementText(this.id)">  </p>
+        <a id="#shemot"></a>
+        <p class="text" id="13" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="14" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="15" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="16" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="17" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="18" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="19" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="20" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="21" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="22" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="23" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="24" onclick="copyElementText(this.id)">  </p>
+        <a id="#vaikra"></a>-->
+        <p class="text" id="25" onclick="copyElementText(this.id)"></p>
+        <p class="text" id="26" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="27" onclick="copyElementText(this.id)"> </p>
+        <p class="text" id="28" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="29" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="30" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="31" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="32" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="33" onclick="copyElementText(this.id)">  </p>
+        <!--
+        <p class="text" id="34" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="35" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="36" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="37" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="38" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="39" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="40" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="41" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="42" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="43" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="44" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="45" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="46" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="47" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="48" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="49" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="50" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="51" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="52" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="53" onclick="copyElementText(this.id)">  </p>
+        <p class="text" id="54" onclick="copyElementText(this.id)">  </p>
+        -->
+    </div>
+    
+          
+       <script>
+      function copyElementText(id) {
+        var text = document.getElementById(id).innerText;
+        var elem = document.createElement("textarea");
+        document.body.appendChild(elem);
+        elem.value = text;
+        elem.select();
+        document.execCommand("copy");
+        document.body.removeChild(elem);
+    }
+    
+            function back() {
+                location.href = "/main.html";
+            }
+             </script>
+</body>
+</html>
