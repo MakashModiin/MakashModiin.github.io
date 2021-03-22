@@ -85,7 +85,7 @@ img{
 .header{
     position: absolute;
     top: 0;
-    width: 99%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: khaki;   
