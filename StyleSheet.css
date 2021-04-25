@@ -123,4 +123,12 @@ p:hover{
 .return{
     padding-top: 20%;
 }
-
+@media (max-width: 600px) {
+    .shevet{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    a.middle{
+        margin: 10px;
+    }
+  }
