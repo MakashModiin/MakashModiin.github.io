@@ -126,7 +126,7 @@ p:hover{
 @media (max-width: 600px) {
     .shevet{
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
     a.middle{
         margin: 10px;
